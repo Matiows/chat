@@ -1,0 +1,60 @@
+/*Scene Login style sheet*/
+.root{
+-fx-background-image:url(bird.jpeg);
+-fx-font-size:20px;
+}
+Label{
+    -fx-text-fill:blueviolet; 
+}
+
+.title{
+ -fx-font-size:60px;
+ -fx-font-family:Times-New-Roman;
+ -fx-text-fill:seagreen;
+ -fx-font-weight:bold;
+ -fx-padding: 10px 20px 30px 20px;
+}
+.warn{
+    -fx-font-size:30px;
+    -fx-text-fill:red; 
+}
+.text-field{
+-fx-padding:7px 10px;
+-fx-border-radius:7px;
+-fx-border-width:2px ;
+-fx-background-color:white;
+-fx-spacing: 40px;
+-fx-font-size:15px;
+}
+.loginBtn{
+-fx-padding:7px 10px;
+-fx-border-radius:7px;
+-fx-border-width:2px ;
+-fx-background-color:white;
+-fx-text-fill: rgb(48, 48, 48);
+-fx-font-size:15px;
+-fx-margin:18px;
+}
+.loginBtn:hover{
+-fx-background-color: rgb(48, 48, 48);
+-fx-text-fill:white;
+}
+.btnCreate{
+-fx-background-color: transparent;
+-fx-border-width:0;
+-fx-text-fill:rgb(63, 176, 228);
+-fx-font-weight:bold;
+-fx-font-family: monospace;
+-fx-font-size:15px;
+}
+.btnCreate:hover{
+ -fx-text-fill: rgb(221, 138, 30);
+}
+
+
+
+
+
+
+
+

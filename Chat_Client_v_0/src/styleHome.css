@@ -1,0 +1,84 @@
+
+
+
+.homebar{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+
+.profile{
+   -fx-graphic:url("profileIcon.png");	 
+   -fx-content-display:top;
+   -fx-text-fill:red;
+   -fx-font-size:30px;
+}
+StackPane{
+    -fx-background-image:url(stackBack.jpeg);
+
+}
+.catagory{
+ 
+    -fx-background-color:transparent;
+    -fx-font-size:20px;
+    -fx-text-fill:white;
+    -fx-min-width:270px;
+}
+.catagory:hover{
+    -fx-background-color:lightblue;
+}
+
+#status{
+    -fx-text-fill:blue;
+    -fx-text-size:20px;
+}
+
+.catagory:pressed{
+        -fx-background-color:lightcoral;
+}
+#logout{
+    -fx-background-color:transparent;
+    -fx-font-size:20px;
+    -fx-text-fill:white;
+}
+#logout:hover{
+    -fx-background-color:red;
+}
+VBox{
+    -fx-background-image:url(menuBack.jpeg);
+}
+
+.homebar:pressed{
+    -fx-scale-y:0.5;
+    -fx-scale-x:0.5; 
+}
+
+
+Pane{
+-fx-background-image:url(homeBackground.jpeg);
+}
+
+#chatwindow{
+    -fx-font-size:15px;
+}
+#message_field{
+    
+}
+#send_btn{
+-fx-background-color:white;
+-fx-text-fill: rgb(48, 48, 48);
+}
+#send_btn:hover{
+-fx-background-color: rgb(48, 48, 48);
+-fx-text-fill:white;
+}
+
+
+
+
+
+
+
+
+
+
